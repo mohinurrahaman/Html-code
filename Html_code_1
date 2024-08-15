@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google form</title>
+<style>
+	.form-center{
+		max-width: 500px;
+		box-shadow: 3px 3px 50px black;
+		border: 2px solid black;
+		border-radius: 10px
+		padding: 12px;
+		display: inline-block;
+		margin: auto;
+		width: 340px;
+		background-color: #6D7B8D;
+	}
+	body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+	input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+ label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #blue;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+	input[type="checkbox"] {
+            background-color: #FFFFFF;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+
+</style>
+</head>
+<body>
+	<div class="form-center">
+	<form>
+	<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+	<h1><p style="color:blue;"><u>GOOGLE FORMS</u></p></h1>
+	<label for="name">First Name :</label><br>
+	<input type="text" id="name1" name="name1"placeholder="Enter your name.."><br><br>
+	<label for="last name">Last Name  :</label><br>
+	<input type="text" id="name2" name="name2"placeholder="Enter your last name.."><br><br>
+	<label for="number">Phone number:</label><br>
+	<input type="text" id="number1" name="number1"placeholder="Enter your phone number.."><br><br>
+	<label for="email">Email id:   </label><br>
+	<input type="text" id="email1" name="email1"placeholder="Enter your email id.."><br><br>
+	<label for="password">password:</label><br>
+	<input type="password" id="password1" name="password1"placeholder="Enter password.."><br><br>
+<style>
+    p {
+        text-align: center;
+    }
+</style>
+	<p><label for="gender">Male:</label>
+	<input type="checkbox" id="male1" name="male1">
+	<label for="gender">Female:</label>
+	<input type="checkbox" id="female1" name="female1"><br><br></p>
+	
+<style>
+    p {
+        text-align: center;
+    }
+</style>
+	<p><input type="Submit" value="submit"</p>
+	</form>
+</div>
+</body>
+</html>
